@@ -1,0 +1,80 @@
+.ligne-form {
+  max-width: 444px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enonce {
+  font-size: 22px;
+}
+
+.champs-input{
+  float: right;
+  clear: both;
+}
+
+.rangee {
+  margin-top: 111px;
+  display:flex;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-repas{
+  display:flex;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.repas {
+  text-align: center;
+  max-width: 300px;
+  margin: 22px 33px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 22px;
+}
+
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+img:hover {
+  opacity:0.6;
+  cursor: pointer;
+}
+
+img:active {
+  opacity:0.4;
+  cursor: pointer;
+}
+
+input[type='radio']:checked + label > img{
+  outline: 11px solid #f00;
+}
+
+.journee {
+  padding: 150px 0px;
+}
+
+input[type='submit']{
+  margin:0 auto;
+  display:block;
+  width: 200px;
+}
+
+.message{
+  text-align: center;
+  color: red;
+}
+
+p {
+  font-size: 25px;
+}

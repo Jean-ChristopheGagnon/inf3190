@@ -1,0 +1,22 @@
+#container {
+  margin-top: 222px;
+}
+
+body {
+  background-color: #000065;
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  color: white;
+}
+
+p, ul {
+  font-size: 3.5em;
+  color: white;
+}
+
+label {
+  color: white;
+}

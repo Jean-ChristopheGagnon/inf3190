@@ -1,0 +1,28 @@
+
+@media (min-width: 576px) {
+  .row {
+    font-size: 1rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .row {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .row {
+    font-size: 2rem;
+  }
+}
+
+.col-sm-6 {
+  max-width: 50%;
+}
+
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../IMAGES/animal.jpg");
+  overflow-x: hidden;
+}

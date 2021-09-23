@@ -1,0 +1,30 @@
+.logo {
+  max-height: 66px;
+  clear: both;
+  float: right;
+
+}
+li {
+  margin: 66px;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+div {
+  max-width: 720px;
+  color:white;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+}
+
+p{
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)), url("../IMAGES/3.jpg");
+}
